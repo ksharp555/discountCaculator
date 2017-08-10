@@ -15,6 +15,8 @@
 		C306863C1F0454DE00C65D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C306863A1F0454DE00C65D36 /* LaunchScreen.storyboard */; };
 		C30686471F0454DE00C65D36 /* DiscountCaculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30686461F0454DE00C65D36 /* DiscountCaculatorTests.m */; };
 		C30686521F0454DE00C65D36 /* DiscountCaculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C30686511F0454DE00C65D36 /* DiscountCaculatorUITests.m */; };
+		C30686621F046C8100C65D36 /* testVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C30686601F046C8100C65D36 /* testVC.m */; };
+		C30686631F046C8100C65D36 /* testVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C30686611F046C8100C65D36 /* testVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		C306864D1F0454DE00C65D36 /* DiscountCaculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscountCaculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C30686511F0454DE00C65D36 /* DiscountCaculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscountCaculatorUITests.m; sourceTree = "<group>"; };
 		C30686531F0454DE00C65D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C306865F1F046C8100C65D36 /* testVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testVC.h; sourceTree = "<group>"; };
+		C30686601F046C8100C65D36 /* testVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testVC.m; sourceTree = "<group>"; };
+		C30686611F046C8100C65D36 /* testVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,9 @@
 				C30686321F0454DE00C65D36 /* ViewController.h */,
 				C30686331F0454DE00C65D36 /* ViewController.m */,
 				C30686351F0454DE00C65D36 /* Main.storyboard */,
+				C306865F1F046C8100C65D36 /* testVC.h */,
+				C30686601F046C8100C65D36 /* testVC.m */,
+				C30686611F046C8100C65D36 /* testVC.xib */,
 				C30686381F0454DE00C65D36 /* Assets.xcassets */,
 				C306863A1F0454DE00C65D36 /* LaunchScreen.storyboard */,
 				C306863D1F0454DE00C65D36 /* Info.plist */,
@@ -249,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30686631F046C8100C65D36 /* testVC.xib in Resources */,
 				C306863C1F0454DE00C65D36 /* LaunchScreen.storyboard in Resources */,
 				C30686391F0454DE00C65D36 /* Assets.xcassets in Resources */,
 				C30686371F0454DE00C65D36 /* Main.storyboard in Resources */,
@@ -276,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C30686621F046C8100C65D36 /* testVC.m in Sources */,
 				C30686341F0454DE00C65D36 /* ViewController.m in Sources */,
 				C30686311F0454DE00C65D36 /* AppDelegate.m in Sources */,
 				C306862E1F0454DE00C65D36 /* main.m in Sources */,
